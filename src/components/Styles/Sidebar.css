@@ -1,0 +1,81 @@
+.sidbarkol {
+    width: 18%;
+    height: 500px;
+}
+
+.sidbarkol-header {
+    width: 100%;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #E0E1E200, #E0E1E2, #E0E1E228) 1;
+
+}
+
+.sidbarkol-header-icon {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 40px;
+
+}
+
+.sidbarkol-header-matn {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 40px;
+}
+.sidbarkol-Main{
+    width: 100%;
+    height: 250px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.sidbarkol-Main-lis{
+    width: 80%;
+    height: 20%;
+    list-style: none;
+
+
+}
+.sidbarkol-Main-lis-dlink{
+    width: 100%;
+    height: 100%;
+        border-radius: 15px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+/* padding-left: 11px; */
+
+}
+.sidbarkol-Main-lis-dicons{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.sabz{
+    width:30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4FD1C5;
+    border-radius: 12px;
+}
+.sefid{
+      width:30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;  
+}

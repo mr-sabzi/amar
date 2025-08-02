@@ -1,0 +1,428 @@
+.billing-kol {
+    width: 100%;
+    margin-top: 23px;
+
+}
+
+.billing-kol-task1 {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.billing-kol-task1-L {
+    width: 60%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.billing-kol-task1-L-top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+
+}
+
+.billing-kol-task1-L-top-card {
+    width: 50%;
+    height: 100%;
+    /* background-color: black; */
+}
+
+.billing-kol-task1-L-top-items {
+    width: 22.5%;
+    height: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.billing-kol-task1-L-top-items-icon {
+    width: 34%;
+    background-color: #4FD1C5;
+    height: 29%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.billing-kol-task1-L-top-items-detail {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #4FD1C5; */
+    margin-top: 10px;
+}
+
+.billing-kol-task1-L-top-items-detail-div {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    /* background-color: #4FD1C5; */
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #E0E1E200, #E0E1E2, #E0E1E228) 1;
+
+}
+
+.billing-kol-task1-L-top-items-detail-div-p1 {
+    font-size: 18px;
+}
+
+.billing-kol-task1-L-top-items-detail-div-p2 {
+    color: #A0AEC0;
+    font-size: 12px;
+}
+
+.billing-kol-task1-L-bottom {
+    width: 100%;
+    height: 45%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.billing-kol-task1-L-bottom-center {
+    width: 95%;
+    height: 85%;
+    /* background-color: red; */
+}
+
+.billing-kol-task1-L-bottom-header {
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+    /* background-color: blue */
+}
+
+.billing-kol-task1-L-bottom-main {
+    width: 100%;
+    /* background-color: yellow; */
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.billing-kol-task1-L-bottom-main-divs {
+    width: 48%;
+    height: 60%;
+    border: solid 1px #E2E8F0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.billing-kol-task1-L-bottom-main-divs-inp {
+    width: 70%;
+    height: 40%;
+    margin: 10px;
+    border: none transparent;
+    outline: none;
+}
+
+.billing-kol-task1-L-bottom-header-btn {
+    border: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 150px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to right, #313860, #151928);
+    border-radius: 12px;
+}
+
+.billing-kol-task1-R {
+    background-color: #FFFFFF;
+    width: 38%;
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.billing-kol-task1-R-center {
+    width: 94%;
+    height: 90%;
+    /* background-color: yellow; */
+}
+
+.billing-kol-task1-R-top {
+    width: 100%;
+    height: 14%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.billing-kol-task1-R-top-btn {
+    width: 30%;
+    height: 80%;
+    border: solid 1px #4FD1C5;
+    background: none;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #4FD1C5;
+
+}
+
+.billing-kol-task1-R-bottom {
+    width: 100%;
+    height: 85%;
+    /* background-color:green; */
+}
+
+.billing-kol-task1-R-bottom-divs {
+    width: 100%;
+    height: 20%;
+    /* background-color: #151928; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.billing-kol-task1-R-bottom-divs-div2-btn {
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 10px;
+
+}
+
+.billing-kol-task1-R-bottom-divs-div1 {
+    width: 40%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.billing-kol-task1-R-bottom-divs-div1-str {
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.billing-kol-task1-R-bottom-divs-div1-p {
+    color: #A0AEC0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.billing-kol-task1-R-bottom-divs-div2 {
+    width: 18%;
+    /* background-color: red; */
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.billing-kol-task2 {
+    width: 100%;
+    margin-top: 20px;
+    height: 430px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.billing-kol-task2-L {
+    width: 53.5%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.billing-kol-task2-L-center {
+    width: 95%;
+    /* background-color: #4FD1C5; */
+    height: 90%;
+}
+
+.billing-kol-task2-L-str {
+    /* background-color: red; */
+    height: 9%;
+}
+
+.billing-kol-task2-L-main {
+    width: 100%;
+    height: 91%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.billing-kol-task2-L-main-divs {
+    width: 100%;
+    height: 29.5%;
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+
+}
+
+.billing-kol-task2-L-main-divs-center {
+    width: 94%;
+    height: 80%;
+    /* background-color: green; */
+}
+
+.billing-kol-task2-L-main-divs-head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.billing-kol-task2-L-main-divs-head-dp {
+    width: 100%;
+    height: 70%;
+}
+
+.billing-kol-task2-L-main-divs-head-dp-p {
+    font-size: 12px;
+    color: #A0AEC0;
+}
+
+.billing-kol-task2-L-main-divs-head-dp-p-s {
+    color: #686a6c;
+
+}
+
+.billing-kol-task2-L-main-divs-head-p {
+    color: #718096;
+}
+
+.billing-kol-task2-L-main-divs-head-dbtn {
+    display: flex;
+    justify-content: space-between;
+    width: 19%;
+
+}
+
+.billing-kol-task2-L-main-divs-head-dbtn-btnDel {
+    background: none;
+    border: none;
+    color: #E53E3E;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.billing-kol-task2-L-main-divs-head-dbtn-btnEdi {
+    background: none;
+    border: none;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.billing-kol-task2-R {
+    width: 44.5%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.billing-kol-task2-R-divhead {
+    width: 100;
+    display: flex;
+    justify-content: space-between;
+    height: 9%;
+}
+
+.billing-kol-task2-R-divhead-date {
+    width: 31%;
+    display: flex;
+    justify-content: space-between;
+}
+.billing-kol-task2-R-main{
+    width: 100%;
+    height: 91%;
+    /* background-color: blue; */
+}
+.billing-kol-task2-R-main-items{
+    width: 100%;
+    /* background-color: yellow; */
+    height: 95%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.billing-kol-task2-R-main-items-divs{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color:brown; */
+}.billing-kol-task2-R-main-items-divs-divL{
+    width: 48%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.billing-kol-task2-R-main-p{
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 150%;
+    color: #A0AEC0;
+}
+.billing-kol-task2-R-main-items-divs-divL-div{
+    width:81.5% ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.billing-kol-task2-R-main-items-divs-divL-name{
+    font-size: 14px;
+    color: #2D3748;
+}
+.billing-kol-task2-R-main-items-divs-divL-dis{
+    color: #A0AEC0;
+    font-size: 12px;
+}
+.billing-kol-task2-R-main-items-divs-divL-price{
+    font-size: 14px;
+}

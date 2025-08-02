@@ -1,0 +1,122 @@
+.Task3 {
+    width: 100%;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Task3-divL {
+    width: 42%;
+    height: 100%;
+    background-color: #FFFFFF;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+
+}
+
+.Task3-divR {
+    width: 56.5%;
+    height: 100%;
+    background-color: #FFFFFF;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        border-radius: 15px;
+}
+.Task3-d-center{
+    width: 95%;
+    height: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+/* background-color: aqua; */
+    border-radius: 15px;
+    padding: 5px;
+}
+.Task3-divL-chart{
+    width: 100%;
+    height: 55%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: peachpuff; */
+}
+.Task3-divL-matn{
+    width: 100%;
+    height: 20%;
+    /* background-color: aqua */
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+.Task3-divL-divs{
+    width: 100%;
+    height: 25%;
+    /* background-color: brown; */
+    display: flex
+    ;
+    justify-content: space-around;
+    align-items: center;
+}
+.Task3-divL-divs-d{
+    width: 20%;
+    height: 70%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Task3-divL-divs-d-bala{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    height: 28px;
+    align-items: center;
+}
+.Task3-divL-divs-d-bala-p{
+    color: #A0AEC0;
+}
+.Task3-divL-divs-d-divkhali{
+background-color: #E2E8F0;
+width: 100%;
+height: 3px;
+border-radius: 25px;
+    
+}
+.Task3-divL-divs-d-divpor{
+    height: 100%;
+    background-color: #4FD1C5;
+    border-radius: 25px;
+}
+.Task3-divL-matn-d{
+    display: flex;
+}
+.Task3-divL-matn-d-span{
+    color: green;
+}
+.Task3-divR-div-bala{
+    width: 100%;
+    height: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Task3-divL-matn-d-p{
+    font-size: 14px;
+}
+.Task3-divR-div-Chart{
+    width: 100%;
+    /* background-color: red; */
+    height: 80%;
+    /* padding: 5px ; */
+}

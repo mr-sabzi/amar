@@ -1,0 +1,94 @@
+.table-task1{
+    width: 99%;
+    height: 470.5px;
+        margin-top: 25px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+        justify-content: center;
+align-items: center;
+
+}
+.table-task1-h3{
+    width: 97%;
+    height: 30px;
+    /* margin-top: 15px; */
+    /* background-color: blue; */
+
+}
+.table-task1-table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 97%;
+  height: 410px;
+  /* background-color: red; */
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  /* padding: 8px; */
+  border-right: none;
+  border-left: none;
+
+  border-bottom: none;
+  
+}
+
+
+th{
+  border: none;
+  font-size: 10px;
+  color: #A0AEC0;
+
+}
+.table-task1-table-tr-td-dimg{
+  /* background-color: blue; */
+  height: 100%;
+  width: 250px;
+  display: flex;
+  /* justify-content: space-between; */
+
+  align-items: center;
+}
+
+.table-task1-table-tr-td-dimg-img{
+  margin-top: 2px;
+  width: 21%;
+  height: 51px;
+  border-radius: 10px;
+}
+.table-task1-table-tr-td-str{
+  font-size: 14px;
+}
+.table-task1-table-tr-td-email{
+  font-size: 14px;
+  color: #718096;
+}
+.table-task1-table-tr-td-divmargin{
+  margin-left: 10px;
+}
+.EditTable{
+  background-color: white;
+  border: none;
+  color:#718096 ;
+  font-size: 12px;
+cursor: pointer;
+}
+.table-task1-table-tr1{
+/* background-color: red; */
+height: 10%;
+
+}
+.table-task1-matn{
+  width: 97%;
+  height: 14%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /* background-color: red; */
+}
