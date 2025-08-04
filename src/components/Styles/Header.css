@@ -7,6 +7,21 @@
     justify-content: space-between;
     
 }
+.Header-ulL-profile{
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+}
+.Header-DL-profile{
+        width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
 .Headerprofileactiv{
     width: 100%;
     height: 300px;
@@ -16,8 +31,19 @@
 .Headerprofileactivmtn{
     color: #FFFFFF;
     text-decoration: none;
+    
+    margin-top: 10px;
+}
+.Headerprofileactivmtnsign{
+        color: #FFFFFF;
+    text-decoration: none;
+    
 }
 
+
+.dashActive{
+    margin-left: 8px;
+}
 .bold{
     font-weight: bold;
 }

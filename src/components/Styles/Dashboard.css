@@ -59,6 +59,7 @@
     width: 15%;
     height: 50%;
     cursor: pointer;
+    margin-right: 13px;
 }
 
 .task2 {
@@ -182,7 +183,7 @@
 
 .sdasds {
     font-size: 10px;
-    color: #FFFFFF;
+    color: #ffffffbf;
 }
 
 .saldkmo-btn {

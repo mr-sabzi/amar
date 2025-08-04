@@ -1,0 +1,178 @@
+.HeaderSignin {
+  /* background-color: red; */
+  /* height: 70px;
+    width: 78.5%; */
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  /* position: relative;
+  bottom: -50px; */
+  position: absolute;
+  z-index: 1;
+
+
+}
+.Signin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HeaderSignin-kol {
+  background-color: #ffffffc8;
+  backdrop-filter: blur(10px);
+  width: 70%;
+  height: 100%;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  align-items: center;
+  padding-right: 20px;
+    position: relative;
+    bottom: -15px;
+}
+
+.Left-Header {
+  width: 24%;
+  display: flex;
+  align-items: center;
+}
+.Left-Header-str{
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.header-center{
+    width: 50%;
+    display: flex;
+}
+.header-center-ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+width: 100%;
+font-size: 10px;
+}
+.header-end{
+    width: 16%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+.header-end-btn{
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 10px;
+    height: 75%;
+    border-radius: 34px;
+background-image: linear-gradient(to right, #313860, #151928);
+border: none;
+}
+.sinbody{
+    width: 100%;
+    height: 810px;
+    display: flex;
+    position: relative;
+bottom: 35px;
+
+}
+.sinbody-L{
+    width: 60%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sinbody-R{
+    width: 40%;
+    height: 100%;
+        background: url("../../../public/image/Image1111111.png") no-repeat left top / cover;
+}
+.sinbody-L-signin{
+    width: 353px;
+    margin-top: 90px;
+    height: 445px;
+    background-color: white;
+}
+.sinbody-L-signin-Form{
+    width: 100%;
+    /* background-color: aqua; */
+    height: 80%;
+}
+
+.signin-h1color{
+    color: #4FD1C5;
+}
+.signin-p{
+    font-size: 14px;
+    color: #A0AEC0;
+    margin-top: 10px
+}
+.sinbody-L-signin-matn{
+    width: 100%;
+    height: 80px;
+}
+.titleInp{
+    font-size: 14px;
+    color: #0c0e12;
+}
+.signin-dInp{
+    width: 100%;
+    height: 40%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.signin-dInps{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    border: 1px solid  #E2E8F0;
+    border-radius: 15px;
+    align-items: center;
+    
+}
+.signin-dInps-inp{
+    width: 90%;
+    height: 60%;
+    border: none;
+}
+
+.dis{
+    font: 14px;
+    color: #A0AEC0;
+}
+.titleInp-a{
+    color: #4FD1C5;
+    font-weight: bold;
+  text-decoration: none;
+}
+.form-footer{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.form-submit{
+    width: 100%;
+    margin-top: 20px;
+    height: 11.5%;
+    font-size: 10px;
+    color: white;
+    background-color: #4FD1C5;
+    border: none;
+    border-radius: 12px;cursor: pointer;
+}
+
+.dec{
+  text-decoration: none;
+color: #0c0e12;
+font-size: 12px;
+}

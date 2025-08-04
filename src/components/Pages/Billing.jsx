@@ -328,6 +328,7 @@ function Billing() {
                           {item.price}
                         </p>
                       </div>
+                      
                     </>
                   ))}
                 </div>

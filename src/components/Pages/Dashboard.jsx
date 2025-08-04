@@ -1,8 +1,8 @@
-import Icon from "../../Icons/Icon";
-import "../../Styles/Dashboard.css";
+import Icon from "../Icons/Icon";
+import "../Styles/Dashboard.css";
 import img1 from "/image/Image.png";
-import ChartRL from "./ChartRL";
-import Overview from "./Overview";
+import ChartRL from "../UI/Dashboard/ChartRL";
+import Overview from "../UI/Dashboard/Overview";
 
 const task1 = [
   {
@@ -113,7 +113,7 @@ function Dashboard() {
 
         <ChartRL/>
         <Overview/>
-
+        
     </>
   );
 }

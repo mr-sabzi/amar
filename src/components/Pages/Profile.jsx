@@ -1,5 +1,6 @@
 import Icon from "../Icons/Icon";
 import "../Styles/Profile.css";
+import { useState } from "react";
 
 const Profileitems = [
   {
@@ -75,7 +76,28 @@ const ArrPojects = [
     p: "Different people have different taste, and various types of music.",
   },
 ];
+const ArrAvatar = [
+
+  {
+    margin:"-10px",
+    img: "../../../public/image/Avatar 2.png",
+  },
+  {
+    margin:"-10px",
+    img: "../../../public/image/Avatar 3.png",
+  },
+  {
+   margin:"-10px",
+    img: "../../../public/image/Avatar 4.png",
+  },
+  {
+   margin:"-10px",
+    img: "../../../public/image/Avatar 5.png",
+  },
+];
 function Profile() {
+
+
   return (
     <>
       <div className="profile">
@@ -113,11 +135,7 @@ function Profile() {
               <div className="profile-Task-divs-items">
                 {ProfileitemsS1.map((item) => (
                   <>
-                    <div className="profile-Task-divs-items-dvs">
-                      <label className="switch">
-                        <input type="checkbox" />
-                        <span className="slider round"></span>
-                      </label>
+                    <div className="profile-Task-divs-items-dvs">               
                       <p className="profile-Task-divs-items-dvs-p">{item.p}</p>
                     </div>
                   </>
@@ -127,10 +145,7 @@ function Profile() {
                 {ProfileitemsS2.map((item) => (
                   <>
                     <div className="profile-Task-divs-items-dvs">
-                      <label className="switch">
-                        <input type="checkbox" />
-                        <span className="slider round"></span>
-                      </label>
+
                       <p className="profile-Task-divs-items-dvs-p">{item.p}</p>
                     </div>
                   </>
@@ -229,34 +244,56 @@ function Profile() {
             <strong>Projects</strong>
             <p className="profile-Task2-p">Architects design houses</p>
             <div className="flex">
-            <div className="profile-Task2-items">
-              {ArrPojects.map((item) => (
-                <>
-                  <div className="profile-Task2-items-dvs">
-                    <div className="profile-Task2-items-dvs-dimg">
-                      <img src={item.img} alt=""  className="profile-Task2-items-dvs-dimg-img"/>
+              <div className="profile-Task2-items">
+                {ArrPojects.map((item) => (
+                  <>
+                    <div className="profile-Task2-items-dvs">
+                      <div className="profile-Task2-items-dvs-dimg">
+                        <img
+                          src={item.img}
+                          alt=""
+                          className="profile-Task2-items-dvs-dimg-img"
+                        />
+                      </div>
+                      <div>
+                        <p className="profile-Task2-items-dvs-Pr">
+                          Project {item.Pr}
+                        </p>
+                        <strong className="profile-Task2-items-dvs-str">
+                          {item.title}
+                        </strong>
+                        <p className="profile-Task2-items-dvs-p">{item.p}</p>
+                      </div>
+                      <div className="profile-Task2-items-dvs-F">
+                        <button className="profile-Task2-items-dvs-F-btn">
+                          VIEW ALL
+                        </button>
+                                            {/* <div className="overview-kol-L-over-dvs-DR"> */}
+                      <div className="members-avatar">
+                        {ArrAvatar.map((item) => (
+                          <>
+                            <div className="members-avatar-d"style={{marginLeft:`${item.margin}`}} >
+                              <img src={item.img} alt=""  className="members-avatar-d-img"/>
+                            </div>
+                          </>
+                        ))}
+                      </div>
+                      {/* </div> */}
                     </div>
-                    <div>
-                      <p className="profile-Task2-items-dvs-Pr">Project {item.Pr}</p>
-                      <strong className="profile-Task2-items-dvs-str">{item.title}</strong>
-                      <p className="profile-Task2-items-dvs-p">{item.p}</p>
                     </div>
-                    <div className="profile-Task2-items-dvs-F">
-                      <button className="profile-Task2-items-dvs-F-btn">VIEW ALL</button>
-                      xd2
-                    </div>
-                  </div>
-                </>
-              ))}
-            </div>
-            <div className="add">
-              <div className="add-center">
-                <Icon name="plus"/>
-                <p className="add-center-p">Create a New Project</p>
+                  </>
+                ))}
               </div>
+              <div className="center">
+              <div className="add">
+                <div className="add-center">
+                  <Icon name="plus" />
+                  <p className="add-center-p">Create a New Project</p>
+                </div>
+              </div></div>
             </div>
           </div>
-        </div></div>
+        </div>
       </div>
     </>
   );

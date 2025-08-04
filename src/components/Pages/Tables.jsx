@@ -7,35 +7,35 @@ const ArrTableT2 = [
     name: "Chakra Soft UI Version",
     budget: "14,000",
     status: "Working",
-    comp: "60%",
+    Comp: "60%",
   },
   {
     icon: "Prog",
     name: "Add Progress Track",
     budget: "$3,000",
     status: "Canceled",
-    comp: "60%",
+    Comp: "60%",
   },
   {
     icon: "Plat",
     name: "Fix Platform Errors",
     budget: "Not set",
     status: "Done",
-    comp: "60%",
+    Comp: "60%",
   },
   {
     icon: "spotify",
     name: "Launch our Mobile App",
     budget: "$32,000",
     status: "Done",
-    comp: "60%",
+    Comp: "60%",
   },
   {
     icon: "Pri",
     name: "Add the New Pricing Page",
     budget: "$400",
     status: "Working",
-    comp: "60%",
+    Comp: "60%",
   },
 ];
 const ArrTableT = [
@@ -47,6 +47,7 @@ const ArrTableT = [
     zirfunc: "Organization",
     status: "Online",
     employed: "14/06/21",
+    sta: true,
   },
   {
     img: "/image/Image (2).png",
@@ -56,6 +57,7 @@ const ArrTableT = [
     zirfunc: "Developer",
     status: "Offline",
     employed: "14/06/21",
+    sta: false,
   },
   {
     img: "/image/Image (3).png",
@@ -65,6 +67,7 @@ const ArrTableT = [
     zirfunc: "Projects",
     status: "Online",
     employed: "14/06/21",
+    sta: true,
   },
   {
     img: "/image/Image (4).png",
@@ -74,6 +77,7 @@ const ArrTableT = [
     zirfunc: "Organization",
     status: "Online",
     employed: "14/06/21",
+    sta: true,
   },
   {
     img: "/image/Image (5).png",
@@ -83,6 +87,7 @@ const ArrTableT = [
     zirfunc: "Developer",
     status: "Offline",
     employed: "14/06/21",
+    sta: false,
   },
   {
     img: "/image/Image (6).png",
@@ -92,6 +97,7 @@ const ArrTableT = [
     zirfunc: "UI/UX Design",
     status: "Offline",
     employed: "14/06/21",
+    sta: false,
   },
 ];
 
@@ -103,7 +109,7 @@ function Tables() {
 
         <table className="table-task1-table">
           <tr className="table-task1-table-tr1">
-            <th >AUTHOR</th>
+            <th>AUTHOR</th>
             <th>FUNCTION</th>
             <th>STATUS</th>
             <th>EMPLOYED</th>
@@ -133,7 +139,11 @@ function Tables() {
                     {item.zirfunc}
                   </p>
                 </td>
-                <td>{item.status}</td>
+                <td>
+                  <div className={item.sta ? "statrue" : "stafalse"}>
+                    {item.status}
+                  </div>
+                </td>
                 <td>{item.employed}</td>
                 <td>
                   <button className="EditTable">Edit</button>
@@ -145,13 +155,13 @@ function Tables() {
       </div>
 
       <div className="table-task1">
-              <div className="table-task1-matn">
-                <h2>Projects</h2>
-                <span className="shadowsss ">
-                  <Icon name="tikSabz" />
-                  <strong> 30 done </strong> this month
-                </span>
-              </div>
+        <div className="table-task1-matn">
+          <h2>Projects</h2>
+          <span className="shadowsss ">
+            <Icon name="tikSabz" />
+            <strong> 30 done </strong> this month
+          </span>
+        </div>
         <table className="table-task1-table">
           <tr className="table-task1-table-tr1">
             <th className="table-task1-table-tr1">COMPANIES</th>
@@ -161,11 +171,10 @@ function Tables() {
           </tr>
           {ArrTableT2.map((item) => (
             <>
-              <tr className="table-task1-table-tr">
+              <tr  className="table-task1-table-tr">
                 <td>
                   <div className="table-task1-table-tr-td-dimg">
-
-                    <Icon name={item.icon}  />
+                    <Icon name={item.icon} />
                     <div className="table-task1-table-tr-td-divmargin">
                       <p className="table-task1-table-tr-td-str">{item.name}</p>
                     </div>
@@ -173,19 +182,22 @@ function Tables() {
                 </td>
 
                 <td>
-                  <p className="table-task1-table-tr-td-str">{item.budget}</p>
+                  <p className="table-task1-table-tr-td-str" >{item.budget}</p>
                 </td>
                 <td>{item.status}</td>
-                <td>{item.comp}</td>
+                      <div  className="darsa-kol" ><p className="p-darsad">{item.Comp}</p>
+                        <div  className="darsad-color">
+                          <div  className="overview-kol-L-over-dvs-DR-com-d-por" style={{width:item.Comp}}></div>
+                        </div>
+                      </div>
                 <td>
-                    {" "}
-                    <Icon name="Tanzimat" />
-                    
+                  {" "}
+                  <Icon name="Tanzimat" />
                 </td>
               </tr>
             </>
           ))}
-        </table> 
+        </table>
       </div>
     </>
   );

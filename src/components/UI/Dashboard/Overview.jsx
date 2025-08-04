@@ -7,7 +7,7 @@ const ArrOver = [
     icon2: "xd2",
 
     Bud: "$14,000",
-    Comp: "sss",
+    Comp: "60%",
   },
   {
     icon: "Prog",
@@ -15,7 +15,7 @@ const ArrOver = [
     icon2: "Prog2",
 
     Bud: "$3,000",
-    Comp: "sss",
+    Comp: "10%",
   },
   {
     icon: "Plat",
@@ -23,7 +23,7 @@ const ArrOver = [
     icon2: "Plat2",
 
     Bud: "No set",
-    Comp: "sss",
+    Comp: "100%",
   },
   {
     icon: "spotify",
@@ -31,7 +31,7 @@ const ArrOver = [
     icon2: "spotify2",
 
     Bud: "$32,000",
-    Comp: "sss",
+    Comp: "100%",
   },
   {
     icon: "Pri",
@@ -39,7 +39,7 @@ const ArrOver = [
     icon2: "Pri2",
 
     Bud: "$400",
-    Comp: "sss",
+    Comp: "25%",
   },
   {
     icon: "in",
@@ -47,7 +47,7 @@ const ArrOver = [
     icon2: "in2",
 
     Bud: "$7,600",
-    Comp: "sss",
+    Comp: "40%",
   },
 ];
 const ArrFR = [
@@ -74,6 +74,25 @@ const ArrFR = [
   {
     name: "New order #9851258",
     date: "18 DEC 4:41 PM",
+  },
+];
+const ArrAvatar = [
+
+  {
+    margin:"-10px",
+    img: "../../../public/image/Avatar 2.png",
+  },
+  {
+    margin:"-10px",
+    img: "../../../public/image/Avatar 3.png",
+  },
+  {
+   margin:"-10px",
+    img: "../../../public/image/Avatar 4.png",
+  },
+  {
+   margin:"-10px",
+    img: "../../../public/image/Avatar 5.png",
   },
 ];
 function Overview() {
@@ -115,9 +134,25 @@ function Overview() {
                       <h4 className="mdlsjfhuoedl">{item.name}</h4>
                     </div>
                     <div className="overview-kol-L-over-dvs-DR">
-                      <div>{item.icon2}</div>
+                      <div className="members-avatar">
+                        {ArrAvatar.map((item) => (
+                          <>
+                            <div className="members-avatar-d"style={{marginLeft:`${item.margin}`}} >
+                              <img src={item.img} alt=""  className="members-avatar-d-img"/>
+                            </div>
+                          </>
+                        ))}
+                      </div>
                       <div>{item.Bud}</div>
-                      <div>{item.Comp} </div>
+                      <div className="overview-kol-L-over-dvs-DR-com">
+                        {item.Comp}
+                        <div className="overview-kol-L-over-dvs-DR-com-d">
+                          <div
+                            className="overview-kol-L-over-dvs-DR-com-d-por"
+                            style={{ width: item.Comp }}
+                          ></div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </>
@@ -169,8 +204,12 @@ function Overview() {
                 {ArrFR.map((item) => (
                   <>
                     <div className="overview-kol-R-body-R-divs">
-                      <h3 className="overview-kol-R-body-R-divs-names" >{item.name}</h3>
-                      <strong className="overview-kol-R-body-R-divs-dates">{item.date}</strong>
+                      <h3 className="overview-kol-R-body-R-divs-names">
+                        {item.name}
+                      </h3>
+                      <strong className="overview-kol-R-body-R-divs-dates">
+                        {item.date}
+                      </strong>
                     </div>
                   </>
                 ))}
