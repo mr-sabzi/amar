@@ -4,7 +4,7 @@
     /* background-color: red; */
     display: flex;
     justify-content: space-between;
-    margin-top: 25px;
+    margin-top: 50px;
 
 }
 
@@ -18,23 +18,37 @@
 }
 
 .dashbord-task1-divs-pric {
-
+margin-top: 5px;
     display: flex;
 
 }
 
 .dashbord-task1-divs-pric-p {
     width: fit-content;
-    color: #2D3748;
+    color: #A0AEC0;
+    font-size: 12px;
+    font-weight: 700;
 }
-
+.dashbord-task1-divs-pricpr{
+    font-weight: 700;
+    font-size: 14px;
+    
+    
+}
 .dashbord-task1-divs-pric-darsad {
     margin-left: 5px;
+    margin-top: 3px;
+    font-weight: 700;
+    font-size: 12px;
     color: #48BB78;
 }
 
 .dashbord-task1-divs-pric-darsadM {
     margin-left: 5px;
+    margin-top: 3px;
+    font-weight: 700;
+    font-size: 12px;
+ 
     color: #E53E3E;
 }
 
@@ -68,7 +82,7 @@
     height: 250px;
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .task2-div1 {
@@ -109,8 +123,8 @@
 }
 
 .task2-di2-center-p {
-    width: 95%;
-    height: 90%;
+    width: 90%;
+    height: 85%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,7 +171,7 @@
 }
 
 .task2-div1-dL-pain-btn {
-    width: 35%;
+    width: 28%;
     height: 31px;
     display: flex;
     justify-content: space-between;
@@ -190,7 +204,7 @@
     background-color: rgba(0, 0, 0, 0);
     border: none;
     color: white;
-    width: 18%;
+    width: 20%;
     height: 31px;
     display: flex;
     justify-content: space-between;
@@ -205,12 +219,24 @@
 .task2-div1-dL-bala-p3{
     margin-top: 8px;
     font-size: 11px;
-
+  letter-spacing: 1px;
 
 color: #A0AEC0;
+}
+.task2-div1-dL-foot-p3{
+        margin-top: 8px;
+    font-size: 11px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.814);
 }
 .task2-div1-dL-bala-p1{
     color: #A0AEC0;
         font-size: 11px;
         height: 12%;
+        font-weight: bold;
+}
+.felesh-rghite{
+    height: 100%;
+    display: flex;
+    align-items: center;
 }

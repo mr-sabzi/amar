@@ -6,60 +6,62 @@ function SignUp() {
   return (
     <>
       <div className="sinupbody">
-
         <div className="Signup">
-        <div className="HeaderSignup">
-          <div className="HeaderSignup-kol">
-            <div className="Left-Header">
-              <span>
-                <Icon name="sidbarw" />
-              </span>
-              <p className="Left-Header-strU">PURITY UI DASHBOARD</p>
-            </div>
-            <div className="header-center">
-              <ul className="header-center-ul">
-                <li>
-                  <span>
-                    <Icon name="dashbordHw" />
-                  </span>{" "}
-                  <a href="/" className="decU">
-                    DASHBOARD
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    <Icon name="profHw" />
-                  </span>{" "}
-                  <a href="/Profile" className="decU">
-                    PROFILE
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    <Icon name="sinuHw" />
-                  </span>{" "}
-                  <a href="" className="decU">
-                    SIGN UP
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    <Icon name="siniHw" />
-                  </span>{" "}
-                  <a href="/SignIn" className="decU">
-                    SIGN IN
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="header-end">
-              <button className="header-siup-end-btn">Free Download</button>
+          <div className="HeaderSignup">
+            <div className="HeaderSignup-kol">
+              <div className="Left-Header">
+                <span>
+                  <Icon name="sidbarw" />
+                </span>
+                <p className="Left-Header-strU">PURITY UI DASHBOARD</p>
+              </div>
+              <div className="header-center">
+                <ul className="header-center-ul">
+                  <li>
+                    <span>
+                      <Icon name="dashbordHw" />
+                    </span>{" "}
+                    <a href="/" className="decU">
+                      DASHBOARD
+                    </a>
+                  </li>
+                  <li>
+                    <span>
+                      <Icon name="profHw" />
+                    </span>{" "}
+                    <a href="/Profile" className="decU">
+                      PROFILE
+                    </a>
+                  </li>
+                  <li>
+                    <span>
+                      <Icon name="sinuHw" />
+                    </span>{" "}
+                    <a href="" className="decU">
+                      SIGN UP
+                    </a>
+                  </li>
+                  <li>
+                    <span>
+                      <Icon name="siniHw" />
+                    </span>{" "}
+                    <a href="/SignIn" className="decU">
+                      SIGN IN
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="header-end">
+                <button className="header-siup-end-btn">Free Download</button>
+              </div>
             </div>
           </div>
-        </div>
           <div className="wel-center">
-            <h1 >Welcome!</h1>
-            <p className="wel-center-p">Use these awesome forms to login or create new <br/> account in your project for free.</p>
+            <h1>Welcome!</h1>
+            <p className="wel-center-p">
+              Use these awesome forms to login or create new <br /> account in
+              your project for free.
+            </p>
           </div>
           <div className="Signup-part1">
             <strong className="part1-str">Register with</strong>
@@ -117,23 +119,27 @@ function SignUp() {
                   />
                 </div>
               </div>
+              <div style={{width:"80%"}}>
+                <div className="toggle-sign">
+                  <input type="checkbox" className="toggle-swich" />
+                  <span className="toggle-span">Remember me</span>
+                </div>
+              </div>
 
               <button className="signupbtn">SIGN UP</button>
 
               <p className="dis dis-margin ">
                 Don't have an account?
                 <a href="/SignIn" className="titleInp-a">
-                  Sign up
+                  Sign in
                 </a>
               </p>
             </form>
           </div>
-          
         </div>
         <div className="signup-Footer">
-        <Footer/>
+          <Footer />
         </div>
-
       </div>
     </>
   );

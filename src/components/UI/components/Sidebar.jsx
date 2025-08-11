@@ -54,6 +54,7 @@ const ArrSideSliceP2 = ArrSide.slice(4, 7);
 
 const Sidebar = () => {
   const [green, setgreen] = useState("1");
+  const [black, setblack] = useState("1");
 
   return (
     <div className="sidbarkol">
@@ -85,7 +86,14 @@ const Sidebar = () => {
                     </span>
                   </div>
                 </div>
-                <span className="sidbarkol-Main-lis-spans">{item.name}</span>
+                <span
+                  className={`sidbarkol-Main-lis-spans ${
+                    black === item.id ? "black" : ""
+                  }`}
+                  onClick={() => setblack(item.id)}
+                >
+                  {item.name}
+                </span>
               </div>
             </Link>
           </li>
@@ -93,7 +101,7 @@ const Sidebar = () => {
       </ul>
 
       <ul className="sidbarkol-Main">
-        <p>ACCOUNT PAGES</p>
+        <p className="sidbarkol-Main-p">ACCOUNT PAGES</p>
         {ArrSideSliceP2.map((item) => (
           <li key={item.id} className="sidbarkol-Main-lis">
             <a href={item.to} className="Link">

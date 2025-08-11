@@ -9,10 +9,11 @@
 }
 
 .sidbarkol-header {
-  width: 100%;
+  margin-left: 10%;
+  width: 82%;
   height: 88px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 
   border-bottom: 2px solid transparent;
   border-image: linear-gradient(to right, #e0e1e200, #e0e1e2, #e0e1e228) 1;
@@ -94,9 +95,16 @@
 }
 .sidbarkol-Main-lis-diconssss.green {
   background-color: #4fd1c5;
-    height: 75%;
+    height: 73%;
     width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.sidbarkol-Main-lis-dicons-icons{
+  width: fit-content;
+  height: fit-content;
 }
 .Support{
   margin-top: 50px;
@@ -141,4 +149,16 @@ border-radius: 15px;
 }
 .support-tb-t{
   color: white;
+}
+
+.sidbarkol-Main-p{
+  font-weight: bold;
+  margin-right: 22%;
+}
+.sidbarkol-Main-lis-spans.black{
+  color:black ;
+}
+
+.sidbarkol-Main-lis-spans{
+  color: #A0AEC0;
 }

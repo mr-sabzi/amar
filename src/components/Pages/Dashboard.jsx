@@ -44,7 +44,7 @@ function Dashboard() {
               <div className="dashbord-task1-divs-diL">
                 <span className="dashbord-task1-divs-pric-p">{item.name}</span>
                 <div className="dashbord-task1-divs-pric">
-                  <p className="dashbord-task1-divs-pric-p">{item.price}</p>
+                  <p className="dashbord-task1-divs-pricpr">{item.price}</p>
                   <span className="dashbord-task1-divs-pric-darsad">
                     {item.priceCh}
                   </span>
@@ -74,7 +74,7 @@ function Dashboard() {
               <div className="task2-div1-dL-pain">
                 <button className="task2-div1-dL-pain-btn">
                   Read more
-                  <span>
+                  <span className="felesh-rghite">
                     <Icon name="right" />
                   </span>
                 </button>
@@ -92,7 +92,7 @@ function Dashboard() {
             <div className="task2-di2-center-p">
               <div className="task2-di2-center-p-p">
                 <p className="sdasds11">Work with the Rockets</p>
-                <p className="sdasds">
+                <p className="task2-div1-dL-foot-p3">
                   Wealth creation is an evolutionarily recent positive-sum game.
                   <br />
                   It is all about who take the opportunity first.
@@ -101,7 +101,7 @@ function Dashboard() {
               <div className="task2-div1-dL-pain">
                 <button className="saldkmo-btn">
                   Read more
-                  <span>
+                  <span className="felesh-rghite">
                     <Icon name="right2" />
                   </span>
                 </button>

@@ -116,12 +116,12 @@ function Overview() {
             </div>
             <div className="overview-kol-L-header2">
               <div className="overview-kol-L-header2-Left">
-                <strong>COMPANIES</strong>
+                <strong className="overWiew-Header-str">COMPANIES</strong>
               </div>
               <div className="overview-kol-L-header2-Right">
-                <strong>ّMEMBERS</strong>
-                <strong>BUDGET</strong>
-                <strong>COMPLETION</strong>
+                <strong className="overWiew-Header-str">ّMEMBERS</strong>
+                <strong className="overWiew-Header-str">BUDGET</strong>
+                <strong className="overWiew-Header-str">COMPLETION</strong>
               </div>
             </div>
 
@@ -143,7 +143,7 @@ function Overview() {
                           </>
                         ))}
                       </div>
-                      <div>{item.Bud}</div>
+                      <div className="overview-kol-L-over-dvs-DR-price">{item.Bud}</div>
                       <div className="overview-kol-L-over-dvs-DR-com">
                         {item.Comp}
                         <div className="overview-kol-L-over-dvs-DR-com-d">

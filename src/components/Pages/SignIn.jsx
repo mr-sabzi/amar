@@ -82,13 +82,9 @@ function SignIn() {
                   />
                 </div>
               </div>
-              {/* <div
-                  className={`tik ${on ? "on" : ""}`}
-                  onClick={() => seton(!on)}
-                >
-                  <div className={`circle ${on ? "circle-on" : ""}`}></div>
-                </div> */}
-
+                   <div className="toggle-sign">
+                    <input type="checkbox"   className="toggle-swich"/><span className="toggle-span">Remember me</span>
+                        </div>
               <button className="form-submit">SIGN IN</button>
               <div className="form-footer">
                 <p className="dis">
@@ -101,7 +97,9 @@ function SignIn() {
             </form>
           </div>
         </div>
-        <div className="sinbody-R"></div>
+        <div className="sinbody-R">
+          <img className="sinbody-R-img" src="/image/Image1111111.png" alt="" />
+        </div>
       </div>
       <Footer/>
       </div>

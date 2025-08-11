@@ -46,9 +46,10 @@ export default function BarChart() {
   return (
     <div
       style={{
-        width: "80%",
+        width: "98%",
         height: "95%",
         padding: "5px",
+
         borderRadius: "12px",
         background: "linear-gradient(to right, #1a2152, #0f1329)",
       }}

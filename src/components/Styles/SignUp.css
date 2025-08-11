@@ -166,9 +166,11 @@
   border-radius: 15px;
   margin-top: 7px;
 }
+
 .Signup-part2-form-dive-dinp-inp {
   width: 85%;
   height: 80%;
+    outline: none;
   border: none;
   background: none;
 }
@@ -206,6 +208,7 @@ color: white;
   width: fit-content;
   height: fit-content;
   font-size: 14px;
+  color: #ffffffc7;
 text-align: center;
 }
 .signup-Footer{

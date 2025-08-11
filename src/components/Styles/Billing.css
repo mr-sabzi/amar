@@ -316,6 +316,7 @@
 
 .billing-kol-task2-L-main-divs-head-dp-p-s {
     color: #686a6c;
+    font-size: 12px;
 
 }
 
@@ -372,7 +373,8 @@
 .billing-kol-task2-R-divhead-date {
     width: 31%;
     display: flex;
-    justify-content: space-between;
+    color: #A0AEC0;
+    justify-content: space-around;
 }
 .billing-kol-task2-R-main{
     width: 100%;

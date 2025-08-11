@@ -47,7 +47,7 @@ th{
 .table-task1-table-tr-td-dimg{
   /* background-color: blue; */
   height: 100%;
-  width: 250px;
+  width: 205px;
   display: flex;
   /* justify-content: space-between; */
 
@@ -131,3 +131,8 @@ border-radius: 12px;
 .p-darsad{
   color: #4FD1C5 ;
 }
+.bolld{
+  font-weight: 700;
+font-size: 14px;
+}
+

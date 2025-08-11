@@ -135,7 +135,10 @@ function Profile() {
               <div className="profile-Task-divs-items">
                 {ProfileitemsS1.map((item) => (
                   <>
-                    <div className="profile-Task-divs-items-dvs">               
+                    <div className="profile-Task-divs-items-dvs">  
+                                       <div className="container">
+                    <input type="checkbox"   className="toggle-swich"/>
+                        </div>             
                       <p className="profile-Task-divs-items-dvs-p">{item.p}</p>
                     </div>
                   </>
@@ -145,6 +148,9 @@ function Profile() {
                 {ProfileitemsS2.map((item) => (
                   <>
                     <div className="profile-Task-divs-items-dvs">
+                      <div className="container">
+                    <input type="checkbox"   className="toggle-swich"/>
+                        </div>
 
                       <p className="profile-Task-divs-items-dvs-p">{item.p}</p>
                     </div>

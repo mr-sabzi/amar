@@ -31,6 +31,7 @@ export const lineChartData = {
   ],
 };
 
+
 export const barChartData = {
   labels: ["", "", "", "", "", "", "", "", ""],
   datasets: [
@@ -41,6 +42,8 @@ export const barChartData = {
       borderWidth: 1,
       barThickness: 8,
       borderRadius: 4,
+
+
     },
   ],
 };

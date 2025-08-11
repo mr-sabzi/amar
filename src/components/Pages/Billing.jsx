@@ -116,10 +116,10 @@ function Billing() {
                 </div>
                 <div className="billing-kol-task1-L-top-items-detail">
                   <div className="billing-kol-task1-L-top-items-detail-div">
-                    <strong className="billing-kol-task1-L-top-items-detail-div-p1">
+                    <strong className=" billing-kol-task1-L-top-items-detail-div-p1">
                       Salary
                     </strong>
-                    <p className="billing-kol-task1-L-top-items-detail-div-p2">
+                    <p className="bolld billing-kol-task1-L-top-items-detail-div-p2">
                       Belong Interactive
                     </p>
                   </div>
@@ -137,7 +137,7 @@ function Billing() {
                     <strong className="billing-kol-task1-L-top-items-detail-div-p1">
                       Paypal
                     </strong>
-                    <p className="billing-kol-task1-L-top-items-detail-div-p2">
+                    <p className="bolld billing-kol-task1-L-top-items-detail-div-p2">
                       Freelance Payment
                     </p>
                   </div>
@@ -232,7 +232,7 @@ function Billing() {
                     <div className="billing-kol-task2-L-main-divs">
                       <div className="billing-kol-task2-L-main-divs-center">
                         <div className="billing-kol-task2-L-main-divs-head">
-                          <p className="billing-kol-task2-L-main-divs-head-p">
+                          <p className=" billing-kol-task2-L-main-divs-head-p">
                             {item.name}
                           </p>
                           <div className="billing-kol-task2-L-main-divs-head-dbtn">
@@ -248,20 +248,20 @@ function Billing() {
                         <div className="billing-kol-task2-L-main-divs-head-dp">
                           <p className="billing-kol-task2-L-main-divs-head-dp-p">
                             Company Name:{" "}
-                            <span className="billing-kol-task2-L-main-divs-head-dp-p-s">
+                            <span className="bolld billing-kol-task2-L-main-divs-head-dp-p-s">
                               {item.compa}
                             </span>
                           </p>
 
-                          <p className="billing-kol-task2-L-main-divs-head-dp-p">
+                          <p className=" billing-kol-task2-L-main-divs-head-dp-p">
                             Email Address:{" "}
-                            <span className="billing-kol-task2-L-main-divs-head-dp-p-s">
+                            <span className="bolld billing-kol-task2-L-main-divs-head-dp-p-s">
                               {item.Email}
                             </span>
                           </p>
-                          <p className="billing-kol-task2-L-main-divs-head-dp-p">
+                          <p className="bol billing-kol-task2-L-main-divs-head-dp-p">
                             VAT Number:
-                            <span className="billing-kol-task2-L-main-divs-head-dp-p-s">
+                            <span className="bolld billing-kol-task2-L-main-divs-head-dp-p-s">
                               {" "}
                               {item.VAT}
                             </span>
@@ -278,9 +278,9 @@ function Billing() {
             <div className="billing-kol-task2-L-center">
               <div className="billing-kol-task2-R-divhead">
                 <strong>Your Transactions</strong>
-                <div className="billing-kol-task2-R-divhead-date">
+                <div className=" bolld billing-kol-task2-R-divhead-date">
                   <Icon name="date" />
-                  <p>23 - 30 March 2020</p>
+                  <p  >23 - 30 March 2020</p>
                 </div>
               </div>
 
@@ -293,15 +293,15 @@ function Billing() {
                         <div className="billing-kol-task2-R-main-items-divs-divL">
                           <Icon name={item.icon} />
                           <div className="billing-kol-task2-R-main-items-divs-divL-div">
-                            <p className="billing-kol-task2-R-main-items-divs-divL-name">
+                            <p className=" bolld billing-kol-task2-R-main-items-divs-divL-name">
                               {item.name}
                             </p>
-                            <p className="billing-kol-task2-R-main-items-divs-divL-dis">
+                            <p className="bolld billing-kol-task2-R-main-items-divs-divL-dis">
                               {item.dis}
                             </p>
                           </div>
                         </div>
-                        <p className="billing-kol-task2-R-main-items-divs-divL-price"
+                        <p className="bolld billing-kol-task2-R-main-items-divs-divL-price"
                           style={{ color: item.color }}>{item.price}</p>
                       </div>
                     </>
@@ -313,16 +313,16 @@ function Billing() {
                         <div className="billing-kol-task2-R-main-items-divs-divL">
                           <Icon name={item.icon} />
                           <div className="billing-kol-task2-R-main-items-divs-divL-div">
-                            <p className="billing-kol-task2-R-main-items-divs-divL-name">
+                            <p className="billing-kol-task2-R-main-items-divs-divL-name bolld">
                               {item.name}
                             </p>
-                            <p className="billing-kol-task2-R-main-items-divs-divL-dis">
+                            <p className="billing-kol-task2-R-main-items-divs-divL-dis bolld">
                               {item.dis}
                             </p>
                           </div>
                         </div>
                         <p
-                          className="billing-kol-task2-R-main-items-divs-divL-price"
+                          className="billing-kol-task2-R-main-items-divs-divL-price bolld"
                           style={{ color: item.color }}
                         >
                           {item.price}

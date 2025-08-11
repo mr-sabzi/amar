@@ -125,7 +125,7 @@ function Tables() {
                       className="table-task1-table-tr-td-dimg-img"
                     />
                     <div className="table-task1-table-tr-td-divmargin">
-                      <p className="table-task1-table-tr-td-str">{item.name}</p>
+                      <p className="table-task1-table-tr-td-str bolld">{item.name}</p>
                       <p className="table-task1-table-tr-td-email">
                         {item.email}
                       </p>
@@ -134,19 +134,19 @@ function Tables() {
                 </td>
                 {/* <td>{item.email}</td> */}
                 <td>
-                  <p className="table-task1-table-tr-td-str">{item.function}</p>
+                  <p className="table-task1-table-tr-td-str bolld">{item.function}</p>
                   <p className="table-task1-table-tr-td-email">
                     {item.zirfunc}
                   </p>
                 </td>
                 <td>
-                  <div className={item.sta ? "statrue" : "stafalse"}>
+                  <div className={item.sta ? "statrue bolld" : "stafalse bold"}>
                     {item.status}
                   </div>
                 </td>
-                <td>{item.employed}</td>
+                <td className="bolld">{item.employed}</td>
                 <td>
-                  <button className="EditTable">Edit</button>
+                  <button className="EditTable bolld">Edit</button>
                 </td>
               </tr>
             </>
@@ -176,15 +176,15 @@ function Tables() {
                   <div className="table-task1-table-tr-td-dimg">
                     <Icon name={item.icon} />
                     <div className="table-task1-table-tr-td-divmargin">
-                      <p className="table-task1-table-tr-td-str">{item.name}</p>
+                      <p className="table-task1-table-tr-td-str bolld">{item.name}</p>
                     </div>
                   </div>
                 </td>
 
                 <td>
-                  <p className="table-task1-table-tr-td-str" >{item.budget}</p>
+                  <p className="table-task1-table-tr-td-str bolld" >{item.budget}</p>
                 </td>
-                <td>{item.status}</td>
+                <td className="bolld  "  >{item.status}</td>
                       <div  className="darsa-kol" ><p className="p-darsad">{item.Comp}</p>
                         <div  className="darsad-color">
                           <div  className="overview-kol-L-over-dvs-DR-com-d-por" style={{width:item.Comp}}></div>
