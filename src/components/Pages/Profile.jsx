@@ -1,5 +1,7 @@
 import Icon from "../Icons/Icon";
 import "../Styles/Profile.css";
+import "../Styles/SignIn.css";
+
 import { useState } from "react";
 
 const Profileitems = [
@@ -146,6 +148,7 @@ function Profile() {
                 {ProfileitemsS2.map((item) => (
                   <>
                     <div className="profile-Task-divs-items-dvs">
+                      
                       <div className="container">
                         <input type="checkbox" className="toggle-swich" />
                       </div>

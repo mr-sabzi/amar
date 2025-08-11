@@ -363,37 +363,7 @@ display: flex;
   border-image: linear-gradient(to right, #e0e1e200, #e0e1e2, #e0e1e228) 1;
 
 }
-.toggle-swich{
-    -webkit-appearance: none;
-    position: relative;
-    width: 40px;
-    height: 20px;
-    border-radius: 25px;
-    background-color: #E2E8F0;
-    transition: bacground .3s;
-    outline: none;
-    cursor: pointer;
-}
-.toggle-swich::after{
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 23%;
-    transform: translate(-50% , -50%);
-    border-radius: 50%;
-    height: 1rem;
-    width: 1rem;
-    background-color: #FFFFFF;
-    transition: left .3s;
 
-}
-
-.toggle-swich:checked{
-    background-color: #4FD1C5
-}
-.toggle-swich:checked::after{
-    left: 76%
-}
 .profile-Task2-items-dvs-dimg-margin{
     width: 99%;
     height: 70%;
