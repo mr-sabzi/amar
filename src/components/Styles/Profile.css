@@ -295,6 +295,7 @@
     justify-content: space-between;
     align-items: center;
     height: 20.5%;
+    width: 100%;
     /* background-color: BLUE; */
 }
 
@@ -392,4 +393,21 @@ display: flex;
 }
 .toggle-swich:checked::after{
     left: 76%
+}
+.profile-Task2-items-dvs-dimg-margin{
+    width: 99%;
+    height: 70%;
+display: flex;
+justify-content: end;
+align-items: end;
+}
+
+.profile-Task2-items-dvs-dimg-kol{
+    margin-right: 10px;
+width: 45%;
+height: 100%;
+display: flex;
+align-items: start;
+justify-content: end;
+
 }

@@ -77,27 +77,25 @@ const ArrPojects = [
   },
 ];
 const ArrAvatar = [
+  {
+    margin: "-10px",
+    img: "../image/829b223a519c61d51eb440aff46c5258b749cc2b.jpg",
+  },
 
   {
-    margin:"-10px",
-    img: "../../../public/image/Avatar 2.png",
+    margin: "-10px",
+    img: "../image/79d4f6cc74be928a57c88c53b40db6b2d3cd95de.jpg",
   },
   {
-    margin:"-10px",
-    img: "../../../public/image/Avatar 3.png",
+    margin: "-10px",
+    img: "../image/a70139183377d3b29d32b52ddb5e92d8d08643a1.jpg",
   },
   {
-   margin:"-10px",
-    img: "../../../public/image/Avatar 4.png",
-  },
-  {
-   margin:"-10px",
-    img: "../../../public/image/Avatar 5.png",
+    margin: "-10px",
+    img: "../image/b940caf9f3a52bcc9317c793ebc094db911b237b.jpg",
   },
 ];
 function Profile() {
-
-
   return (
     <>
       <div className="profile">
@@ -135,10 +133,10 @@ function Profile() {
               <div className="profile-Task-divs-items">
                 {ProfileitemsS1.map((item) => (
                   <>
-                    <div className="profile-Task-divs-items-dvs">  
-                                       <div className="container">
-                    <input type="checkbox"   className="toggle-swich"/>
-                        </div>             
+                    <div className="profile-Task-divs-items-dvs">
+                      <div className="container">
+                        <input type="checkbox" className="toggle-swich" />
+                      </div>
                       <p className="profile-Task-divs-items-dvs-p">{item.p}</p>
                     </div>
                   </>
@@ -149,8 +147,8 @@ function Profile() {
                   <>
                     <div className="profile-Task-divs-items-dvs">
                       <div className="container">
-                    <input type="checkbox"   className="toggle-swich"/>
-                        </div>
+                        <input type="checkbox" className="toggle-swich" />
+                      </div>
 
                       <p className="profile-Task-divs-items-dvs-p">{item.p}</p>
                     </div>
@@ -274,29 +272,39 @@ function Profile() {
                         <button className="profile-Task2-items-dvs-F-btn">
                           VIEW ALL
                         </button>
-                                            {/* <div className="overview-kol-L-over-dvs-DR"> */}
-                      <div className="members-avatar">
-                        {ArrAvatar.map((item) => (
-                          <>
-                            <div className="members-avatar-d"style={{marginLeft:`${item.margin}`}} >
-                              <img src={item.img} alt=""  className="members-avatar-d-img"/>
-                            </div>
-                          </>
-                        ))}
+                          {/* <div className="overview-kol-L-over-dvs-DR"> */}
+                          <div className="profile-Task2-items-dvs-dimg-kol">
+                        <div className="profile-Task2-items-dvs-dimg-margin">
+                            {ArrAvatar.map((item) => (
+                              <>
+                                <div
+                                  className="members-avatar-d"
+                                  style={{ marginLeft: `${item.margin}` }}
+                                >
+                                  <img
+                                    src={item.img}
+                                    alt=""
+                                    className="members-avatar-d-img"
+                                  />
+                                </div>
+                              </>
+                            ))}
+                          </div>
+                          {/* </div> */}
+                        </div>
                       </div>
-                      {/* </div> */}
-                    </div>
                     </div>
                   </>
                 ))}
               </div>
               <div className="center">
-              <div className="add">
-                <div className="add-center">
-                  <Icon name="plus" />
-                  <p className="add-center-p">Create a New Project</p>
+                <div className="add">
+                  <div className="add-center">
+                    <Icon name="plus" />
+                    <p className="add-center-p">Create a New Project</p>
+                  </div>
                 </div>
-              </div></div>
+              </div>
             </div>
           </div>
         </div>
