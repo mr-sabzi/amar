@@ -78,21 +78,26 @@ const ArrFR = [
 ];
 const ArrAvatar = [
 
+    {
+    margin:"-10px",
+    img: "../image/829b223a519c61d51eb440aff46c5258b749cc2b.jpg",
+  },
+
   {
     margin:"-10px",
-    img: "../../../public/image/Avatar 2.png",
+    img: "../image/79d4f6cc74be928a57c88c53b40db6b2d3cd95de.jpg",
   },
   {
     margin:"-10px",
-    img: "../../../public/image/Avatar 3.png",
+    img: "../image/a70139183377d3b29d32b52ddb5e92d8d08643a1.jpg",
   },
   {
    margin:"-10px",
-    img: "../../../public/image/Avatar 4.png",
+    img: "../image/b940caf9f3a52bcc9317c793ebc094db911b237b.jpg",
   },
   {
    margin:"-10px",
-    img: "../../../public/image/Avatar 5.png",
+    img: "../image/aefc4dce7d5db174a07347d853fddacb55edbe39.jpg",
   },
 ];
 function Overview() {

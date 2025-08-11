@@ -199,15 +199,18 @@ color:#4FD1C5 ;
 .members-avatar{
     margin-left: 12px;
     width: 40%;
+align-items: center;
     display: flex;
 }
 .members-avatar-d{
-    width: 20%;
-    height: 100%;
+    width: 18%;
+    height: 53%;
 }
 .members-avatar-d-img{
+    border: 3px solid white;
     width: 100%;
     height: 100%;
+    border-radius: 50%;
 }
 .overview-kol-L-over-dvs-DR-price{
     width: 30%;
