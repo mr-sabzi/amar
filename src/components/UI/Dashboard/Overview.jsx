@@ -77,26 +77,25 @@ const ArrFR = [
   },
 ];
 const ArrAvatar = [
-
-    {
-    margin:"-10px",
+  {
+    margin: "-10px",
     img: "../image/829b223a519c61d51eb440aff46c5258b749cc2b.jpg",
   },
 
   {
-    margin:"-10px",
+    margin: "-10px",
     img: "../image/79d4f6cc74be928a57c88c53b40db6b2d3cd95de.jpg",
   },
   {
-    margin:"-10px",
+    margin: "-10px",
     img: "../image/a70139183377d3b29d32b52ddb5e92d8d08643a1.jpg",
   },
   {
-   margin:"-10px",
+    margin: "-10px",
     img: "../image/b940caf9f3a52bcc9317c793ebc094db911b237b.jpg",
   },
   {
-   margin:"-10px",
+    margin: "-10px",
     img: "../image/aefc4dce7d5db174a07347d853fddacb55edbe39.jpg",
   },
 ];
@@ -133,6 +132,7 @@ function Overview() {
             <div className="overview-kol-L-over">
               {ArrOver.map((item) => (
                 <>
+                  {/* is not table for try  */}
                   <div className="overview-kol-L-over-dvs">
                     <div className="overview-kol-L-over-dvs-DL">
                       <Icon name={item.icon} />{" "}
@@ -140,15 +140,25 @@ function Overview() {
                     </div>
                     <div className="overview-kol-L-over-dvs-DR">
                       <div className="members-avatar">
+                        <div className="members-avatar-s">
                         {ArrAvatar.map((item) => (
                           <>
-                            <div className="members-avatar-d"style={{marginLeft:`${item.margin}`}} >
-                              <img src={item.img} alt=""  className="members-avatar-d-img"/>
+                            <div
+                              className="members-avatar-d"
+                              style={{ marginLeft: `${item.margin}` }}
+                            >
+                              <img
+                                src={item.img}
+                                alt=""
+                                className="members-avatar-d-img"
+                              />
                             </div>
                           </>
-                        ))}
+                        ))}</div>
                       </div>
-                      <div className="overview-kol-L-over-dvs-DR-price">{item.Bud}</div>
+                      <div className="overview-kol-L-over-dvs-DR-price">
+                        {item.Bud}
+                      </div>
                       <div className="overview-kol-L-over-dvs-DR-com">
                         {item.Comp}
                         <div className="overview-kol-L-over-dvs-DR-com-d">
