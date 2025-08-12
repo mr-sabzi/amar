@@ -164,11 +164,14 @@
   margin-left: 4px;
 }
 
-
+.profile-Task1-divs-center-items{
+    display: flex;
+}
 
 .profile-Task1-divs-center-items-str {
     color: #718096;
     font-size: 12px;
+
 }
 
 .profile-Task1-divs-center-i {

@@ -173,8 +173,8 @@ function Profile() {
               <div className="profile-Task1-divs-center-i">
                 <div className="profile-Task1-divs-center-items">
                   <strong className="profile-Task1-divs-center-items-str">
-                    Full Name:{" "}
-                  </strong>{" "}
+                    Full Name:
+                  </strong>
                   <p className="profile-Task1-divs-center-items-p">
                     Alec M. Thompson
                   </p>
